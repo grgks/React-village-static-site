@@ -23,7 +23,7 @@ export default function InfoPage() {
             <section className="mb-10">
                 <h2 className="text-2xl font-semibold text-green-700 mb-3">{t('info.contact')}</h2>
                 <p className="text-gray-600 text-lg">
-                    📞 <p className="text-gray-600 text-lg">{t('info.contact_text')}</p>
+                    {/*📞 <p className="text-gray-600 text-lg">{t('info.contact_text')}</p>*/}
                 </p>
             </section>
 
