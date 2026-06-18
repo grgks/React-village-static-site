@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next'
 const photos = [
     '/images/potamoula1.jpg',
     '/images/potamoulaBench.jpg',
+    '/images/potamoula2.jpg',
+    '/images/potamoula3.jpg'
 ]
 
 export default function PhotosPage() {
