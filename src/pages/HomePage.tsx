@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useState, useEffect } from 'react'
+import i18n from "i18next";
 
 const images = [
     { src: '/images/potamoula1.jpg', position: 'center 90%' },
@@ -9,6 +10,10 @@ const images = [
 export default function HomePage() {
     const { t } = useTranslation()
     const [current, setCurrent] = useState(0)
+
+    useEffect(() => {
+        document.title = i18n.language === 'el' ? 'Ποταμούλα' : 'Potamoula'
+    }, [i18n.language])
 
     useEffect(() => {
         const timer = setInterval(() => {

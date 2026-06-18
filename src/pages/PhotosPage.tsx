@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import {useEffect, useState} from 'react'
 import { useTranslation } from 'react-i18next'
+import i18n from "i18next";
 
 const photos = [
     '/images/potamoula1.jpg',
@@ -11,6 +12,10 @@ const photos = [
 export default function PhotosPage() {
     const { t } = useTranslation()
     const [selected, setSelected] = useState<string | null>(null)
+
+    useEffect(() => {
+        document.title = i18n.language === 'el' ? 'Ποταμούλα | Φωτογραφίες' : 'Potamoula | Photos'
+    }, [i18n.language])
 
     return (
         <div className="max-w-5xl mx-auto px-6 py-12">

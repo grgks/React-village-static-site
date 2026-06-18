@@ -1,7 +1,13 @@
 import { useTranslation } from 'react-i18next'
+import {useEffect} from "react";
+import i18n from "i18next";
 
 export default function InfoPage() {
     const { t } = useTranslation()
+
+    useEffect(() => {
+        document.title = i18n.language === 'el' ? 'Ποταμούλα | Πληροφορίες' : 'Potamoula | Information'
+    }, [i18n.language])
 
     return (
         <div className="max-w-3xl mx-auto px-6 py-12">

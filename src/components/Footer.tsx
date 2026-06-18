@@ -5,8 +5,8 @@ export default function Footer() {
 
     return (
         <footer className="bg-green-800 text-white py-6 mt-auto">
-            <div className="max-w-4xl mx-auto px-6 flex flex-row items-center justify-between w-full gap-3">
-                <p>© {new Date().getFullYear()} Ποταμούλα. {t('footer.rights')}</p>
+            <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-3">
+                <p className="text-center md:text-left">© {new Date().getFullYear()} Ποταμούλα. {t('footer.rights')}</p>
                 <div className="flex gap-6 items-center">
                     <a href="https://github.com/grgks" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-green-300 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
