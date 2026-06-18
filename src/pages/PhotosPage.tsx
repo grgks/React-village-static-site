@@ -6,7 +6,9 @@ const photos = [
     '/images/potamoula1.jpg',
     '/images/potamoulaBench.jpg',
     '/images/potamoula2.jpg',
-    '/images/potamoula3.jpg'
+    '/images/potamoula3.jpg',
+    '/images/potamoula4.jpg'
+
 ]
 
 export default function PhotosPage() {
