@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <nav className="bg-green-800 text-white px-6 py-4 flex justify-between items-center">
-            <span className="text-xl font-bold">Ποταμούλα</span>
+            <span className="text-xl font-bold">{t('potamoula')}</span>
             <div className="flex gap-6 items-center">
                 <Link to="/" className="hover:text-green-200 transition">{t('nav.home')}</Link>
                 <Link to="/photos" className="hover:text-green-200 transition">{t('nav.photos')}</Link>
