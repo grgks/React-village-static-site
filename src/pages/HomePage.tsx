@@ -62,7 +62,7 @@ export default function HomePage() {
                 <div className="rounded-xl overflow-hidden shadow-lg">
                     <iframe
                         title="Ποταμούλα"
-                        src="https://www.google.com/maps?q=Ποταμούλα&output=embed"
+                        src="https://www.google.com/maps?q=Ποταμούλα+Μακρυνείας+30015&output=embed"
                         width="100%"
                         height="400"
                         style={{ border: 0 }}
