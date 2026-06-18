@@ -1,0 +1,23 @@
+{
+  "potamoula": "Potamoula",
+  "nav": {
+    "home": "Home",
+    "info": "Information",
+    "photos": "Photos"
+  },
+  "home": {
+    "hero_title": "Potamoula",
+    "hero_subtitle": "A small village in the heart of nature",
+    "welcome": "Welcome",
+    "welcome_text": "Potamoula is a semi-mountainous village in Aetolia-Acarnania, built at an altitude of 310 meters on the northern slopes of Mount Arakynthos (Zygos), next to Lake Trichonida, the largest natural lake in Greece. It is 40 km from Agrinio and 41 km from Nafpaktos. According to the 2011 census it has ~22 inhabitants. The village has two churches, Agia Paraskevi and Agios Nikolaos. Surrounded by lush vegetation and impressive mountains, it offers tranquility, fresh air and an authentic Greek traditional atmosphere."
+  },
+  "info": {
+    "title": "Information",
+    "location": "Location",
+    "contact": "Contact",
+    "location_text": "Potamoula is located in the Municipal Unit of Makrineia, Municipality of Agrinio, Aetolia-Acarnania. Altitude 310m, south of Lake Trichonida and on the northern slopes of Mount Arakynthos."
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}
