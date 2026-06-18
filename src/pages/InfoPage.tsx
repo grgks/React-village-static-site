@@ -26,6 +26,12 @@ export default function InfoPage() {
                     📞 +30 210 0000000
                 </p>
             </section>
+
+            {/*  Disclaimer */}
+            <section className="mb-10 border-t pt-8 border-gray-200">
+                <h2 className="text-2xl font-semibold text-green-700 mb-3">{t('info.disclaimer_title')}</h2>
+                <p className="text-gray-500 text-base leading-relaxed">{t('info.disclaimer_text')}</p>
+            </section>
         </div>
     )
 }

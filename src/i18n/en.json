@@ -15,7 +15,9 @@
     "title": "Information",
     "location": "Location",
     "contact": "Contact",
-    "location_text": "Potamoula is located in the Municipal Unit of Makrineia, Municipality of Agrinio, Aetolia-Acarnania. Altitude 310m, south of Lake Trichonida and on the northern slopes of Mount Arakynthos."
+    "location_text": "Potamoula is located in the Municipal Unit of Makrineia, Municipality of Agrinio, Aetolia-Acarnania. Altitude 310m, south of Lake Trichonida and on the northern slopes of Mount Arakynthos.",
+    "disclaimer_title": "Disclaimer",
+    "disclaimer_text": "This website is for informational purposes only. We do not collect personal data, use cookies, or conduct any financial transactions. The information provided is indicative and may change. We are not responsible for the content of external links such as Google Maps or others. No representative of this website will contact you by phone or email."
   },
   "footer": {
     "rights": "All rights reserved"
