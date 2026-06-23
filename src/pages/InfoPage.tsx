@@ -82,7 +82,7 @@ export default function InfoPage() {
                 </h3>
 
                 <p className="text-gray-600 text-lg leading-relaxed">
-                    {/*{t('info.contact_text')}*/}
+                    {t('info.contact_text')}
                 </p>
             </section>
 
